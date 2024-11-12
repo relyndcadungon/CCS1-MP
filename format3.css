@@ -1,0 +1,19 @@
+table {
+	width:700px;
+	border:1px solid red;
+}
+  
+th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid red;
+}
+  
+th {
+	background-color: red;
+	color: white;
+}
+
+#para1 {
+	color:red;
+}

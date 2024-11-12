@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="format2.css">
+</head>
+
+<body>
+<div class="form-container">
+    <h2>Broom Broom</h2>
+<form>
+    <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+</div>
+<div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+</div>
+<div class="form-group">
+    <label>What computer language do you love? (Check all that apply):</label>
+<div class="checkbox-group">
+    <label><input type="checkbox" name="language" value="C"> C</label>
+    <label><input type="checkbox" name="language" value="C++"> C++</label>
+    <label><input type="checkbox" name="language" value="C#"> C#</label>
+    <label><input type="checkbox" name="language" value="Java"> Java</label>
+    <label><input type="checkbox" name="language" value="Python"> Python</label>
+    <label><input type="checkbox" name="language" value="JavaScript"> JavaScript</label>
+    <label><input type="checkbox" name="language" value="React"> React</label>
+    <label><input type="checkbox" name="language" value="HTML"> HTML</label>
+</div>
+<div class="form-group">
+    <label for="comments">Any comments or suggestions:</label>
+    <textarea id="comments" name="comments"></textarea>
+</div>
+<button type="submit" class="submit-button">Submit</button>
+
+</form>
+</div>
+</body>
+</html>

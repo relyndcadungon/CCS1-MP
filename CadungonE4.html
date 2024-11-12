@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+
+        .column {
+            width: 33%;
+            padding: 10px;
+        }
+
+        .centered-column {
+            width: 33%;
+            text-align: center;
+        }
+
+        .full-width {
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+
+        .full-width-content {
+            width: 100%;
+            padding: 10px;
+            border-bottom: 1px solid black;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image-column {
+            text-align: center;
+            width: 45%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        address {
+            margin: 0;
+        }
+
+        /* Center both heading and media elements */
+        .media-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        video, audio {
+            margin: 10px auto;
+        }
+
+        .movie-info {
+            text-align: left; /* Align text to the left */
+            padding: 10px;
+            margin-top: 10px;
+            max-width: 600px; /* Limit width for better centering */
+        }
+
+        h4 {
+            margin-bottom: 5px; /* Adjust spacing between title and content */
+        }
+
+        /* Background colors for different rows */
+        .row1 {
+            background-color: #f0f8ff; /* Alice Blue */
+        }
+
+        .row2 {
+            background-color: #e6ffe6; /* Light Green */
+        }
+
+        .row3 {
+            background-color: #fff3e6; /* Light Coral */
+        }
+
+        .row5 {
+            background-color: #ffe6e6; /* Light Pink */
+        }
+
+        .row6 {
+            background-color: #e6f7ff; /* Light Blue */
+        }
+
+        .row7 {
+            background-color: #f2e6ff; /* Lavender */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Row 1: Navigation links -->
+        <div class="row row1">
+            <div class="column"></div>
+            <div class="centered-column"><a href="CadungonE3.html">Home</a></div>
+            <div class="centered-column"><a href="C:\CCS1\page1.html">More about Myself</a></div>
+        </div>
+
+        <!-- Row 2: Name -->
+        <div class="full-width row2">
+            <br>
+            Relyn Grace D. Cadungon
+            <br><br>
+        </div>
+
+        <!-- Row 3: More about myself -->
+        <div class="full-width-content row3">
+            <br>
+            <h4>MORE ABOUT MYSELF</h4>
+            <br>
+            Hobbies: Playing volleyball and sleeping<br>
+            Talents: Dancing<br>
+            Skills: Good at drawing and good at memorizing
+            <br><br>
+        </div>
+
+        <!-- Row 5: Two Pictures with Captions -->
+        <div class="full-width-content row5">
+            <br>
+            <h4 style="text-align:center;">PHOTOS RELEVANT TO ME</h4>
+            <br><br>
+            <div class="image-row">
+                <div class="image-column">
+                    <img src="C:\CCS1\MID PROJECT\gegegege.jpg" alt="Picture 1">
+                    <p>permi nalang katulgon</p>
+                </div>
+                <div class="image-column">
+                    <img src="C:\CCS1\MID PROJECT\hehehehe.jpg" alt="Picture 2">
+                    <p>permi ga kaon pero wa manambok</p>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <!-- Row 6: Video and Movie Information Section -->
+        <div class="full-width-content media-center row6">
+            <h4>MY FAVORITE MOVIE</h4>
+            <br>
+            <video width="600" height="340" controls>
+                <source src="C:\CCS1\MID PROJECT\Cars 3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+
+            <!-- Movie Information -->
+            <h4>CARS (2006)</h4>
+            <div class="movie-info" style="text-align: center;">
+                <p><strong>About:</strong> Lightning McQueen, a hotshot race car, ends up in a small town called Radiator Springs, where he learns that life is about more than just winning.</p>
+                <p><strong>Cast:</strong> Owen Wilson (Lightning McQueen), Paul Newman (Doc Hudson), Bonnie Hunt (Sally Carrera), Larry the Cable Guy (Mater), Cheech Marin (Ramone).</p>
+                <p><strong>Release Date:</strong> June 9, 2006</p>
+                <p><strong>Director:</strong> John Lasseter</p>
+                <p><strong>Ratings:</strong> 7.1/10 (IMDb)</p>
+            </div>
+            <br><br>
+        </div>
+
+        <!-- Row 7: Audio Section -->
+        <div class="full-width-content media-center row7">
+            <h4>My Favorite Music</h4>
+            <br>
+            <audio controls>
+                <source src="C:\CCS1\MID PROJECT\mao ni.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="movie-info" style="text-align: center;">
+                <p><strong>Song:</strong> Strawberries & Cigarettes</p>
+                <p><strong>Artist:</strong> Troye Sivan</p>
+                <p><strong>Ratings:</strong> 8.1/10 (IMDb)</p>
+            </div>
+            <br><br>
+        </div>
+    </div>
+</body>
+</html>

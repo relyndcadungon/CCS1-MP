@@ -1,0 +1,135 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Parallax sections */
+.parallax, .parallax-second {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.parallax {
+    background-image: url(pic.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-second {
+    background-image: url(pic2.jpg); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text styling within parallax sections */
+.paralax-text, .paralax-text2 {
+    font-size: 3em;
+    color: #fff;
+    background-color: rgba(183, 15, 15, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Content section styling */
+.content {
+    padding: 40px;
+    background-color: #fff;
+    text-align: left; /* Aligns text to the left */
+    font-family: 'Lora', serif;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* About link styling */
+.about-link {
+    display: inline-block;
+    color: #00bcd4;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 20px; /* Adds space above the link */
+}
+
+.about-link:hover {
+    text-decoration: underline;
+}
+
+/* Box for exercises */
+.box {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc; /* Optional border for better visibility */
+}
+
+/* Pseudo-classes for links inside the box */
+/* unvisited link */
+.box a:link {
+    color: #e196c5;
+}
+  
+/* visited link */
+.box a:visited {
+    color: #b5300f;
+}
+  
+/* mouse over link */
+.box a:hover {
+    color: #FF00FF;
+}
+  
+  /* selected link */
+.box a:active {
+    color: #0000FF;
+}
+
+/* Simplified About Me Section */
+.parallax-rectangle {
+    position: relative;
+    text-align: center;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 800px;
+    background-attachment: fixed;
+}
+
+/* Flexbox container for image and text in About Me section */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+/* Styling for the image */
+.about-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the about text */
+.about-text {
+    line-height: 1.6;
+    font-size: 1em;
+    font-family: 'Lora', serif;
+}
